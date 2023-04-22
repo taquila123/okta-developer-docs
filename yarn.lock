@@ -7795,9 +7795,9 @@ mime@^2.0.3, mime@^2.4.4:
   integrity sha512-dhNd1uA2u397uQk3Nv5LM4lm93WYDUXFn3Fu291FJerns4jyTudqhIWe4W04YLy7Uk1tm1Ore04NpjRvQp/NPA==
 
 mime@^2.4.1:
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/mime/-/mime-2.5.2.tgz#6e3dc6cc2b9510643830e5f19d5cb753da5eeabe"
-  integrity sha512-tqkh47FzKeCPD2PUiPB6pkbMzsCasjxAfC62/Wap5qrUWcb+sFasXUC5I3gYM5iBM8v/Qpn4UK0x+j0iHyFPDg==
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/mime/-/mime-2.6.0.tgz#a2a682a95cd4d0cb1d6257e28f83da7e35800367"
+  integrity sha512-USPkMeET31rOMiarsBNIHZKLGgvKc/LrjofAnBlOttf5ajRvqiRA8QsenbcooctK6d6Ts6aqZXBA+XbkKthiQg==
 
 mimic-fn@^1.0.0:
   version "1.2.0"
@@ -8402,7 +8402,14 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
-on-finished@^2.3.0, on-finished@~2.3.0:
+on-finished@^2.3.0:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.4.1.tgz#58c8c44116e54845ad57f14ab10b03533184ac3f"
+  integrity sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==
+  dependencies:
+    ee-first "1.1.1"
+
+on-finished@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
   integrity sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=
@@ -12276,10 +12283,10 @@ xml-name-validator@^3.0.0:
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-3.0.0.tgz#6ae73e06de4d8c6e47f9fb181f78d648ad457c6a"
   integrity sha512-A5CUptxDsvxKJEU3yO6DuWBSJz/qizqzJKOMIfUJHETbBw/sFaDxgd6fxm1ewUaM0jZ444Fc5vC5ROYurg/4Pw==
 
-xml2js@^0.4.19:
-  version "0.4.23"
-  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.23.tgz#a0c69516752421eb2ac758ee4d4ccf58843eac66"
-  integrity sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==
+xml2js@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.5.0.tgz#d9440631fbb2ed800203fad106f2724f62c493b7"
+  integrity sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==
   dependencies:
     sax ">=0.6.0"
     xmlbuilder "~11.0.0"
